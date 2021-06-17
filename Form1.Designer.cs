@@ -40,7 +40,7 @@ namespace v0617
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label1.Location = new System.Drawing.Point(325, 168);
+            this.label1.Location = new System.Drawing.Point(199, 87);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(135, 48);
             this.label1.TabIndex = 0;
@@ -56,7 +56,7 @@ namespace v0617
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("MS UI Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label2.Location = new System.Drawing.Point(69, 375);
+            this.label2.Location = new System.Drawing.Point(25, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(119, 33);
             this.label2.TabIndex = 1;
@@ -66,7 +66,7 @@ namespace v0617
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("MS UI Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label3.Location = new System.Drawing.Point(424, 395);
+            this.label3.Location = new System.Drawing.Point(91, 142);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 22);
             this.label3.TabIndex = 2;
@@ -76,7 +76,7 @@ namespace v0617
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(322, 173);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

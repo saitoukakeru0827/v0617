@@ -12,8 +12,8 @@ namespace v0617
 {
     public partial class Form1 : Form
     {
-        int vx = -10, vy = -10,score = 100;
-
+        int vx = rand.Next(-10,11), vy = rand.Next(-10, 11), score = 100;
+        static Random rand = new Random();
         private void Form1_Load(object sender, EventArgs e)
         {
             //MessageBox.Show("" + ClientSize.Width);
@@ -31,6 +31,9 @@ namespace v0617
         public Form1()
         {
             InitializeComponent();
+
+            label1.Left = rand.Next(ClientSize.Width - label1.Width );
+            label1.Top = rand.Next(ClientSize.Height - label1.Height );
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -44,9 +47,9 @@ namespace v0617
                 vx = -vx;
             if (label1.Top <= 0)
                 vy = -vy;
-            if (label1.Left >= 680)
+            if (label1.Left >= ClientSize.Width- label1.Width )
                 vx = -vx;
-            if (label1.Top >= 402)
+            if (label1.Top >= ClientSize.Height- label1.Height )
                 vy = -vy;
             label1.Left += vx;
             label1.Top += vy;
