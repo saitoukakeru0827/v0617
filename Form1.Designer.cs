@@ -38,7 +38,7 @@ namespace v0617
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label1.Location = new System.Drawing.Point(666, 404);
+            this.label1.Location = new System.Drawing.Point(325, 168);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(135, 48);
             this.label1.TabIndex = 0;
