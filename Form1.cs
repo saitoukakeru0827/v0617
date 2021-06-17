@@ -41,7 +41,7 @@ namespace v0617
                 vy = -vy;
             if (label1.Left >= 680)
                 vx = -vx;
-            if (label1.Top >= 400)
+            if (label1.Top >= 402)
                 vy = -vy;
             label1.Left += vx;
             label1.Top += vy;
