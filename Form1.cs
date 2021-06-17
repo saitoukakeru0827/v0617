@@ -35,6 +35,11 @@ namespace v0617
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            Point spos = MousePosition;
+            Point fpos = PointToClient(spos);
+            label3.Text = $"{fpos.X}, {fpos.Y}";
+            label3.Left = fpos.X -38;
+            label3.Top = fpos.Y -11;
             if (label1.Left <= 0)
                 vx = -vx;
             if (label1.Top <= 0)
