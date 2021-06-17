@@ -47,6 +47,11 @@ namespace v0617
             label1.Top += vy;
             score--;
             label2.Text = "Score " + score;
+            /*if(score==0)
+            {
+                vx = -vx;
+                vy = -vy;
+            }*/
         }
     }
 }
