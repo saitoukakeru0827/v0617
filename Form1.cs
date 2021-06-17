@@ -12,7 +12,7 @@ namespace v0617
 {
     public partial class Form1 : Form
     {
-        int vx = -10, vy = -10;
+        int vx = -10, vy = -10,score = 100;
         public Form1()
         {
             InitializeComponent();
@@ -30,6 +30,8 @@ namespace v0617
                 vy = -vy;
             label1.Left += vx;
             label1.Top += vy;
+            score--;
+            label2.Text = "Score " + score;
         }
     }
 }
