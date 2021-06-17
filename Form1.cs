@@ -16,8 +16,8 @@ namespace v0617
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("" + ClientSize.Width);
-            MessageBox.Show("" + ClientSize.Height);
+            //MessageBox.Show("" + ClientSize.Width);
+            //MessageBox.Show("" + ClientSize.Height);
         }
 
         private void label1_Click(object sender, EventArgs e)
