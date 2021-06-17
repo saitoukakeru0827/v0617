@@ -57,6 +57,13 @@ namespace v0617
                 vx = -vx;
                 vy = -vy;
             }*/
+
+            if (    (fpos.X >= label1.Left) 
+                 && (fpos.X < label1.Right) 
+                 && (fpos.Y >= label1.Top) 
+                 && (fpos.Y < label1.Bottom)
+                )
+                timer1.Enabled = false;
         }
     }
 }
